@@ -14,6 +14,10 @@
 		701F9AB319FCA2D200CF0F2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701F9AB219FCA2D200CF0F2C /* Images.xcassets */; };
 		701F9AB619FCA2D200CF0F2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701F9AB419FCA2D200CF0F2C /* LaunchScreen.xib */; };
 		701F9AC219FCA2D200CF0F2C /* FlagButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701F9AC119FCA2D200CF0F2C /* FlagButtonTests.m */; };
+		701F9ACD19FCA33300CF0F2C /* star-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F9ACB19FCA33200CF0F2C /* star-on@2x.png */; };
+		701F9ACE19FCA33300CF0F2C /* star-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F9ACC19FCA33200CF0F2C /* star-off@2x.png */; };
+		701F9AD119FCA48C00CF0F2C /* star-on-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F9ACF19FCA48C00CF0F2C /* star-on-large@2x.png */; };
+		701F9AD219FCA48C00CF0F2C /* star-off-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 701F9AD019FCA48C00CF0F2C /* star-off-large@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		701F9ABB19FCA2D200CF0F2C /* FlagButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701F9AC019FCA2D200CF0F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		701F9AC119FCA2D200CF0F2C /* FlagButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagButtonTests.m; sourceTree = "<group>"; };
+		701F9ACB19FCA33200CF0F2C /* star-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-on@2x.png"; sourceTree = "<group>"; };
+		701F9ACC19FCA33200CF0F2C /* star-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-off@2x.png"; sourceTree = "<group>"; };
+		701F9ACF19FCA48C00CF0F2C /* star-on-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-on-large@2x.png"; sourceTree = "<group>"; };
+		701F9AD019FCA48C00CF0F2C /* star-off-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-off-large@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				701F9AA419FCA2D200CF0F2C /* FlagButton */,
 				701F9ABE19FCA2D200CF0F2C /* FlagButtonTests */,
 				701F9AA319FCA2D200CF0F2C /* Products */,
+				701F9ACB19FCA33200CF0F2C /* star-on@2x.png */,
+				701F9ACC19FCA33200CF0F2C /* star-off@2x.png */,
+				701F9ACF19FCA48C00CF0F2C /* star-on-large@2x.png */,
+				701F9AD019FCA48C00CF0F2C /* star-off-large@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +180,7 @@
 				TargetAttributes = {
 					701F9AA119FCA2D200CF0F2C = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = EG3WJ73D78;
 					};
 					701F9ABA19FCA2D200CF0F2C = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,7 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				701F9AB119FCA2D200CF0F2C /* Main.storyboard in Resources */,
+				701F9AD219FCA48C00CF0F2C /* star-off-large@2x.png in Resources */,
+				701F9ACE19FCA33300CF0F2C /* star-off@2x.png in Resources */,
 				701F9AB619FCA2D200CF0F2C /* LaunchScreen.xib in Resources */,
+				701F9ACD19FCA33300CF0F2C /* star-on@2x.png in Resources */,
+				701F9AD119FCA48C00CF0F2C /* star-on-large@2x.png in Resources */,
 				701F9AB319FCA2D200CF0F2C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlagButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlagButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
